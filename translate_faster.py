@@ -8,19 +8,6 @@ class VocabularyTrainer:
         self.score = 0
         self.total_words = len(word_list)
 
-    def get_words_list(self) -> None:
-        words_list = []
-        file = open("words_baul.txt", "r")
-        file_lines = file.readlines()
-
-        for lines in file_lines:
-            lines = lines.strip().split(",")
-            item = {"en": lines[0], "es": lines[1], "level": lines[2]}
-            words_list.append(item)
-
-        file.close()
-        return words_list
-
     def get_random_word(self) -> Dict[str, str]:
         return random.choice(self.word_list)
 
@@ -43,6 +30,21 @@ class VocabularyTrainer:
 
 
 def main():
+
+    def get_words_list() -> List[Dict[str, str]]:
+        words_list = []
+        file = open("words_baul.txt", "r")
+        file_lines = file.readlines()
+
+        for lines in file_lines:
+            lines = lines.strip().split(",")
+            item = {"en": lines[0], "es": lines[1], "level": lines[2]}
+            words_list.append(item)
+
+        file.close()
+        print(words_list)
+        return words_list
+
     print("Hello! Welcome to the vocabulary trainer.")
     print(
         "You will be given a word in English and you have to translate it to Spanish."
@@ -52,11 +54,11 @@ def main():
     print("\n")
     rounds = input("Select the level of difficulty: 0, 1, 2 or 3 to 5: ")
     questionsCount = input("Select the number of questions: ")
-    # return
-    # TODO: try to fix the flow to get the words and run the quizS
-    trainer = VocabularyTrainer(word_list)
-    word_list = trainer.get_words_list()
-    # trainer.run_quiz(5)
+
+    # TODO: create a level difficulty filter
+    words = get_words_list()
+    trainer = VocabularyTrainer(words)
+    trainer.run_quiz(5)
 
     # print(lista)
 

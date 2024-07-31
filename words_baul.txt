@@ -1,0 +1,60 @@
+Hello, Hola, 0
+Yes, Sí, 0
+No, No, 0
+Water, Agua, 0
+Food, Comida, 0
+Friend, Amigo, 0
+Family, Familia, 0
+Love, Amor, 0
+Good morning, Buenos días, 0
+Good night, Buenas noches, 0
+Goodbye, Adiós, 1
+Thank you, Gracias, 1
+Please, Por favor, 1
+How are you?, ¿Cómo estás?, 1
+Excuse me, Perdón, 1
+I'm sorry, Lo siento, 1
+Nice to meet you, Mucho gusto, 1
+Tired, Cansado, 1
+Hungry, Hambriento, 1
+Thirsty, Sediento, 1
+What's your name?, ¿Cómo te llamas?, 2
+My name is, Me llamo, 2
+How much is it?, ¿Cuánto cuesta?, 2
+Where is the bathroom?, ¿Dónde está el baño?, 2
+I don't understand, No entiendo, 2
+Can you help me?, ¿Puedes ayudarme?, 2
+Happiness, Felicidad, 2
+Sadness, Tristeza, 2
+Anger, Enojo, 2
+Fear, Miedo, 2
+Surprise, Sorpresa, 3
+Excuse me, Perdón, 3
+I'm sorry, Lo siento, 3
+Nice to meet you, Mucho gusto, 3
+Tired, Cansado, 3
+Hungry, Hambriento, 3
+Thirsty, Sediento, 3
+Thank you, Gracias, 3
+Please, Por favor, 3
+How are you?, ¿Cómo estás?, 3
+What's your name?, ¿Cómo te llamas?, 4
+My name is, Me llamo, 4
+How much is it?, ¿Cuánto cuesta?, 4
+Where is the bathroom?, ¿Dónde está el baño?, 4
+I don't understand, No entiendo, 4
+Can you help me?, ¿Puedes ayudarme?, 4
+Happiness, Felicidad, 4
+Sadness, Tristeza, 4
+Anger, Enojo, 4
+Fear, Miedo, 4
+Good morning, Buenos días, 5
+Good night, Buenas noches, 5
+Friend, Amigo, 5
+Family, Familia, 5
+Love, Amor, 5
+Water, Agua, 5
+Food, Comida, 5
+Surprise, Sorpresa, 5
+Tired, Cansado, 5
+Hungry, Hambriento, 5
